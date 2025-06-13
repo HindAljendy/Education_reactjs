@@ -1,0 +1,13 @@
+.footer{
+    margin: 10px auto;
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid  #787878;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}

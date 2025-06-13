@@ -4,7 +4,8 @@ import arrow from './../../assets/dark-arrow.png'
 
 const Hero = () => {
     return (
-        <div className='hero container'>
+        /* when use react-scroll : add values target in properties name or id or unique className */
+        <div className='hero container' name="home">
             <div className='hero-text'>
                 <h1>We Ensure better education for a better world</h1>
                 <p>Our cutting-edge curriculum is designed to empower students with the knowledge,
