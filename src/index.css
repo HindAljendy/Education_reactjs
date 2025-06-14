@@ -24,12 +24,10 @@ a{
     color: #212121;
     padding: 14px 25px;
     font-size: 16px;
-    font-weight: bold;
     border-radius: 30px;
     border: none;
     outline: none;
     cursor: pointer;
-
     display:inline-flex;
     justify-content:center;
     align-items: center;
@@ -43,4 +41,17 @@ a{
     background-color:#212EA0 ;
     color: #fff;
     font-weight: normal;
+}
+
+/* media Query  */
+@media (max-width:1200px) {
+
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+       /*  font-size: 14px; */
+    }
 }
