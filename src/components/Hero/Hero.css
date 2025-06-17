@@ -28,3 +28,41 @@
     margin-top:10px ;
     margin-bottom: 20px;
 }
+
+/* media query   : Medium devices*/
+@media (max-width:992px) {
+
+    .hero .hero-text{
+        max-width: 580px;
+    }
+    .hero .hero-text h1{
+        font-size: 40px;
+        
+    }
+}
+@media (max-width:650px) {
+
+    .hero .hero-text{
+        max-width: 500px;
+    }
+    .hero .hero-text h1{
+        font-size: 32px;
+        margin: auto;
+        
+    }
+    .hero .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+
+}
+/* media query   : mobiles devices*/
+@media  (max-width:576px) {
+
+    .hero .hero-text{
+        max-width: 320px;
+    }
+    .hero .hero-text h1{
+        font-size: 22px;
+    }
+}

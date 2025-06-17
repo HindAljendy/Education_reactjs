@@ -55,3 +55,18 @@ a{
        /*  font-size: 14px; */
     }
 }
+/* media query   : mobiles devices*/
+@media  (max-width:576px) {
+
+    .container{
+        max-width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin: 0 auto;
+    }
+    .btn{
+        padding: 10px 20px;
+        font-size: 12px;
+    
+    }
+}

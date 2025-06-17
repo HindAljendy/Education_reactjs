@@ -1,4 +1,4 @@
-nav{
+nav {
     width: 100%;
     color: #fff;
     padding: 4px 0;
@@ -9,24 +9,28 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
-nav .logo{
+
+nav .logo {
     width: 180px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     font-size: 16px;
     display: inline-block;
     margin: 5px 20px;
 }
-.dark-nav{
+
+.dark-nav {
     background-color: #212EA0;
     transition: 0.5s;
 }
 
 
 /* hidden the menu_icon in large screen  and show it in smaller than screens*/
-.menu_icon{
+.menu_icon {
     display: none;
 }
 
@@ -34,18 +38,19 @@ nav ul li{
 /* media query  */
 @media (max-width:1000px) {
 
-    nav .logo{
+    nav .logo {
         width: 140px;
     }
-    nav ul li{
+
+    nav ul li {
         margin: 10px 15px;
     }
 }
 
 /* media query   : Medium devices*/
 @media (max-width:992px) {
-    
-    nav ul.menu_list{
+
+    nav ul.menu_list {
         width: 200px;
         padding-top: 70px;
         background-color: #212EA0;
@@ -54,29 +59,37 @@ nav ul li{
 
         /* menu_list =>  show when right :0  / hide when it out viewport (-200) ,  200:width */
         /* another way By opacity */
-    
+
         bottom: 0;
         z-index: -1;
         transition: 0.5s;
     }
-    .hide-menu_list{
+
+    .hide-menu_list {
         right: -200px;
     }
-    .show-menu_list{
+
+    .show-menu_list {
         right: 0;
     }
 
 
-    nav ul.menu_list li{
+    nav ul.menu_list li {
         display: block;
         margin: 25px 35px;
     }
 
-    .menu_icon{
+    .menu_icon {
         display: block;
         width: 30px;
         cursor: pointer;
     }
 
 
+}
+
+@media (max-width:650px) {
+    nav {
+        padding: 10px;
+    }
 }

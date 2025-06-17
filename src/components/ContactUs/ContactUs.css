@@ -49,3 +49,14 @@
     display: block;
     margin: 20px 0;
 }
+
+@media (max-width:992px) {
+    .ContactUs{
+
+    display: block;
+
+}
+.ContactUs .contact-col{
+    padding: 20px;
+}
+}

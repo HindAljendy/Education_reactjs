@@ -1,4 +1,4 @@
-import React, { use, useRef } from 'react'
+import React, {  useRef } from 'react'
 import './Testimonials.css'
 import Title from '../Title/Title'
 import back_icon from "./../../assets/back-icon.png"
